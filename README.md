@@ -13,4 +13,10 @@ While this program's results are certainly attractive to the cheap college stude
 When this program is in a more impressive and useful state, I will throw it in a Django app and host it somewhere.
 
 
-To run it, simply clone the repo and run python find_food.py. You can option include -z and a zip code as an argument. It will default to 02110 - Boston.
+To Run
+======
+ - clone the repo
+ - log into meetup.com (create a free account if necessary), and visit https://secure.meetup.com/meetup_api/key/
+ - copy and paste your api_key into config_temp.json as the value for the "key" field, and rename the file to config.json
+ - run python find_food.py
+ - you can optionally include -z and a zip code as an argument; it will default to 02110 - Boston.
