@@ -1,4 +1,6 @@
 #############################################
+# Author: Glen Kidwell
+#
 # Description: This program will find events with free food by hitting the meetup.com API
 # 
 # You will need to have a config.json in the project directory for this to work. It should contain your meetup.com api key
